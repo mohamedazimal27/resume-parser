@@ -47,9 +47,9 @@ if __name__ == "__main__":
 
     try:
         # Replace with actual file paths for real testing
-        pdf_text = extract_text_from_file("path/to/your/resume.pdf")
+        pdf_text = extract_text_from_file("C:/Users/moham/Azimal/Side Income/kevin/resume_parser_core/resume.pdf")
         print("PDF Text (partial):", pdf_text[:500])
-        docx_text = extract_text_from_file("path/to/your/resume.docx")
+        docx_text = extract_text_from_file("C:/Users/moham/Azimal/Side Income/kevin/resume_parser_core/resume-parser/sample_resumes/resume.docx")
         print("DOCX Text (partial):", docx_text[:500])
     except FileNotFoundError:
         print("Please place actual resume files in 'path/to/your/resume.pdf' etc. for testing.")
